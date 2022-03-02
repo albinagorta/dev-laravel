@@ -30,4 +30,59 @@ php artisan make:controller apiV1/CategoryController --api
 php artisan make:controller CategoryController
 ```
 
+- realizar la migracion 
+```php
+php artisan migrate
+```
 
+- otros de migracion 
+
+: Drop all tables and re-run all migrations 
+```php
+php artisan migrate:fresh
+```
+
+:Create the migration repository
+```php
+php artisan migrate:install
+```
+
+:Reset and re-run all migrations
+```php
+php artisan migrate:refresh
+```
+
+:Rollback all database migrations
+```php
+php artisan migrate:reset
+```
+
+:Rollback the last database migration
+```php
+php artisan migrate:rollback
+```
+
+:Show the status of each migration.
+```php
+php artisan migrate:status
+```      
+        
+- comprobar las rutas         
+```php
+php artisan route:list
+``` 
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
+         
