@@ -71,6 +71,8 @@ php artisan migrate:status
 ```php
 php artisan route:list
 ``` 
+https://httpstatuses.com/
+
 
 
 
