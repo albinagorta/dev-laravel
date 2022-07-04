@@ -25,6 +25,11 @@ php artisan make:model Category -m
 php artisan make:controller apiV1/CategoryController --api
 ```
 
+- Cree recursos API elocuentes
+```php
+php artisan make:resource Producto
+```
+
 - crear controlador para web
 ```php
 php artisan make:controller CategoryController
